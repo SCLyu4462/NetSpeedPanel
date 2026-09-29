@@ -1,0 +1,12 @@
+# Build artifacts - distribute via GitHub Releases instead
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# OS
+Thumbs.db

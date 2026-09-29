@@ -15,7 +15,7 @@
 
 ### 方式一：直接运行 exe
 
-双击 `NetSpeedMonitor.exe` 即可启动。
+从 [Releases](https://github.com/SCLyu4462/NetSpeedPanel/releases) 页面下载最新版 `NetSpeedMonitor.exe`，双击即可启动。
 
 ### 方式二：Python 源码运行
 
@@ -38,12 +38,14 @@ python network_speed_monitor.py
 ## 文件结构
 
 ```
-├── NetSpeedMonitor.exe       # 独立可执行文件（免安装）
 ├── network_speed_monitor.py  # Python 源码
 ├── start_net_speed.bat       # 快捷启动脚本
 ├── .gitignore
+├── LICENSE
 └── README.md
 ```
+
+> 独立 exe（免安装）请从 [Releases](https://github.com/SCLyu4462/NetSpeedPanel/releases) 下载，不再随仓库分发。
 
 ## 技术栈
 
